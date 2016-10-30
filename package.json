@@ -1,0 +1,19 @@
+{
+  "name": "image-search-abstraction-layer",
+  "version": "1.0.0",
+  "description": "project for FCC",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aidansven/image-search-abstraction-layer.git"
+  },
+  "author": "Ethan Rose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aidansven/image-search-abstraction-layer/issues"
+  },
+  "homepage": "https://github.com/aidansven/image-search-abstraction-layer#readme"
+}
