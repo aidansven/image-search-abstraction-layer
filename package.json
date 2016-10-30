@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aidansven/image-search-abstraction-layer/issues"
   },
-  "homepage": "https://github.com/aidansven/image-search-abstraction-layer#readme"
+  "homepage": "https://github.com/aidansven/image-search-abstraction-layer#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
