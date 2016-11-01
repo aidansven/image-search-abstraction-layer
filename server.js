@@ -3,7 +3,6 @@ var request = require('request');
 var url = require('url');
 var express = require('express');
 var app = express();
-var port = 3000;
 app.use(express.static(__dirname + '/client'));
 
 var mongo = require('mongodb').MongoClient;
@@ -83,6 +82,6 @@ app.get('/latest', function(req, res){
 
 
 console.log('Success!');
-app.listen(port, function(){
-    console.log('server.js is listening on port: ' + port);
+app.listen(process.env.PORT || 3000, function(){
+    console.log('server.js is listening on port: ' + process.env.PORT);
 });
