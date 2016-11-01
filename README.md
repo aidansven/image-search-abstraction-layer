@@ -5,12 +5,12 @@ I will use the "bing" search API.. or Google Custom Search API... haven't actual
 
 
 =============
-/api/search/:path?offset=0
+/api?q="my+search"?offset=0
 =============
-GOAL 1: (x)
+(X) GOAL 1:
 Make a friendly looking page where someone can put in a search query and be redirected to the URL Encoded api path
 
-GOAL 2:
+(X) GOAL 2:
 If someone connects to this path (URL encoded!), they will be served a response in JSON format.
 The JSON response will include:
 {img:"imggggg", alt:"altttttt", url:"urlllll"}
@@ -19,8 +19,8 @@ GOAL 3:
 Store the Search Query that made a get request in a collection. Include
 {search: "searchhhhh", time: "timestamppppp"}
 
-GOAL 4:
+(X) GOAL 4:
 Get the "Offset" query working!
 
-GOAL 5:
+(X) GOAL 5:
 Be done with this mind-melting project! :)

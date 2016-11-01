@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <title>Image Search Abstraction Layer</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 <body>
-<h1>Title</h1>
-<p>Files are being served correctly!</p>
+
+<form action="/api" method="get">
+    <input type="text" name="q" placeholder="Image Search">
+    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+</form>
+<a href="/latest">Recent Searches</a>
 
 </body>
 </html>
